@@ -1,0 +1,27 @@
+[project]
+name = "property-faq-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jose Junior", email = "albernazj93@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.125.0",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.1",
+]
+
+[project.scripts]
+property-faq-extractor = "property_faq_extractor.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.31.0",
+    "pytest>=8.4.2",
+]
