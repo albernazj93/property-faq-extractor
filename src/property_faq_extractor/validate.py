@@ -1,0 +1,1 @@
+#Validates the output of the LLM before returning it to the user. It runs locally only and focus on verifying common mistakes such as duplicated FAQ, invalid citations, etc. 

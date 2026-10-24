@@ -2,7 +2,7 @@
 
 ## INPUT
 
-User can input a single document at the time as usually a property contains a single guideline document or a single image with rules. 
+User can input multiple documents at the time of any supported format that contains houses rules, contracts, guideline, recommendations, etc.
 
 ### Formats
 
